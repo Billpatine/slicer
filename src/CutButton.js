@@ -15,7 +15,7 @@ class CutButton extends React.Component {
   }
 
   handleCutButton() {
-    console.log('CUT!!!');
+    // console.log('CUT!!!');
 
     const {imageHeight, slices} = this.props;
 
@@ -70,7 +70,7 @@ class CutButton extends React.Component {
 
     return (
       <button onClick={this.handleCutButton.bind(this)}>
-        CUT!
+        Create Slices
       </button>
     )
   }

@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+:root {
+  --blue: #4286f4;
+  --grey: #292b2d;
+  --lightgrey: #ddd;
+}
+
+
+.App-header button {
+  text-transform: uppercase;
+  color: white;
+  background: var(--blue);
+}
+input, .App-header button {
+  border-radius: 4px;
+  border: 1px solid var(--blue);
+  padding: 1em;
+  margin: 1em;
+}
+
 body {
   background:#fafafa;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--grey);
 }
 
 .Slices-container {
@@ -13,7 +36,7 @@ body {
 
   top:0; /* hug top and bottom */
   bottom:0; /* hug top and bottom */
-  background: #ddd;
+  background: var(--lightgrey);
 }
 .CutBand:hover {
   cursor:crosshair;

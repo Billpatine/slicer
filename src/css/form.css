@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.App-header button {
+  text-transform: uppercase;
+  color: white;
+  background: #4286f4;
+}
+input, .App-header button {
+  border-radius: 4px;
+  border: 1px solid #4286f4;
+  padding: 1em;
+  margin: 1em;
+}
